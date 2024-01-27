@@ -607,7 +607,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/me.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -877,6 +877,7 @@ section {
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .portfolio #portfolio-flters li {
